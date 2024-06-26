@@ -1,0 +1,232 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.branding {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.branding .logo {
+    width: 50px;
+    height: auto;
+    margin: 0 15px;
+}
+
+.branding h2 {
+    margin: 0;
+    color: #333;
+    font-size: 1.5em;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.tab-link {
+    background: #1e3d59;
+    border: none;
+    padding: 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+    transition: background 0.3s;
+    flex: 1;
+    font-size: 1em;
+}
+
+.tab-link:hover {
+    background: #162a40;
+}
+
+.tab-link-comida {
+    background: #1e3d59;
+}
+
+.tab-link-bebida {
+    background: #1e3d59;
+}
+
+.tab-selected {
+    background: #d9534f !important;
+}
+
+.tab-content {
+    display: none;
+    width: 100%;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 7px 0;
+    padding: 7px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.product-name {
+    font-size: 1.2em;
+    color: #333;
+    font-weight: bold;
+}
+
+.product-price {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.product-controls {
+    display: flex;
+    align-items: center;
+}
+
+.product-controls input {
+    width: 30px;
+    text-align: center;
+    margin: 0 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.product-controls button {
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s;
+    font-size: 1em;
+    min-width: 40px;
+}
+
+.button-zero {
+    background: #1e3d59;
+    color: white;
+}
+
+.button-nonzero {
+    background: #d9534f;
+    color: white;
+}
+
+.product-controls button:hover {
+    background: #162a40;
+}
+
+.total {
+    text-align: center;
+    margin-top: 20px;
+    color: #d9534f;
+    position: sticky;
+    bottom: 0;
+    background: white;
+    width: 100%;
+    padding: 10px 0;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.total h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+#reset-button {
+    background: #d9534f;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+#reset-button:hover {
+    background: #b52b27;
+}
+
+.payment-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0px;
+    padding: 10px;
+    /* background: #f5f5f5; */
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.payment-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+}
+
+.payment-label {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.payment-amount, .payment-input {
+    font-size: 1.2em;
+    padding: 5px;
+    text-align: center;
+}
+
+.payment-input {
+    width: 100px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.total-amount {
+    color: #d9534f;
+}
+
+.payment-amount {
+    color: #1e3d59;
+}
+
+.change-amount {
+    color: #5cb85c;
+}
