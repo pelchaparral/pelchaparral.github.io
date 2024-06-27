@@ -16,6 +16,9 @@
     <button class="fullscreen-btn" onclick="toggleFullscreen()">
         <i class="fas fa-expand"></i>
     </button>
+    <button class="fullscreen-btn2 " onclick="toggleFullscreen()" >
+        <i class="fas fa-expand"></i>
+    </button>
 
     <div class="container">
         <div class="header">
@@ -55,17 +58,7 @@
         </div>
     </div>
     <script src="script.js"></script>
-    <script>
-        function toggleFullscreen() {
-            if (!document.fullscreenElement) {
-                document.documentElement.requestFullscreen().catch(err => {
-                    alert(`Error attempting to enable full-screen mode: ${err.message} (${err.name})`);
-                });
-            } else {
-                document.exitFullscreen();
-            }
-        }
-    </script>
+
 </body>
 
 </html>

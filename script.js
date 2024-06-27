@@ -118,7 +118,15 @@ document.addEventListener('DOMContentLoaded', () => {
     //     this.value = this.value.replace(/[^0-9.,]/g, '');
     // });
 
-
+    window.toggleFullscreen = function() {
+        if (!document.fullscreenElement) {
+            document.documentElement.requestFullscreen().catch(err => {
+                alert(`Error attempting to enable full-screen mode: ${err.message} (${err.name})`);
+            });
+        } else {
+            document.exitFullscreen();
+        }
+    }
 
     openTab('suaves');
 });
