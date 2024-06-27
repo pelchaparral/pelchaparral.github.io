@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
             { name: 'Calimocho', price: 3, quantity: 0 },
             { name: 'Cachi Cerveza', price: 5, quantity: 0 },
             { name: 'Cachi Calimocho', price: 5, quantity: 0 },
-            { name: 'Refrescos,zumos', price: 2, quantity: 0 },
+            { name: 'Refrescos/zumos', price: 2, quantity: 0 },
             { name: 'Agua', price: 1, quantity: 0 },
             { name: 'Mosto', price: 1.2, quantity: 0 },
             { name: 'Vaso Retornable', price: 1, quantity: 0 },
@@ -128,5 +128,24 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+
+    // document.getElementById('payment-input').addEventListener('focus', function() {
+    //     var footer = document.getElementsByClassName('payment-section')
+    //     footer.style.position = 'fixed';
+    //     footer.style.bottom = '10px';
+    //     footer.style.left = '10px';
+    //     footer.style.right = '10px';
+    //     footer.style.zIndex = '1000';
+    // });
+    
+    // document.getElementById('payment-input').addEventListener('blur', function() {
+    //     var footer = document.getElementsByClassName('payment-section')
+    //     footer.style.position = '';
+    //     footer.style.bottom = '';
+    //     footer.style.left = '';
+    //     thfooteris.style.right = '';
+    //     footer.style.zIndex = '';
+
+    // });
     openTab('suaves');
 });
