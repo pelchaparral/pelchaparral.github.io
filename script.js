@@ -107,9 +107,9 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('change-amount').textContent = change.toFixed(2) + '€';
     }
 
-    document.getElementById('payment-input').addEventListener('input', function() {
-        this.value = this.value.replace(/[^0-9.,]/g, '');
-    });
+    // document.getElementById('payment-input').addEventListener('input', function() {
+    //     this.value = this.value.replace(/[^0-9.,]/g, '');
+    // });
 
     openTab('comida');
 });

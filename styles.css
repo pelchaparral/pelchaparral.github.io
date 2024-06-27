@@ -192,6 +192,7 @@ html, body {
     transition: background 0.3s;
     font-size: 1em;
     height: 50%;
+    width: 70%;
 }
 
 #reset-button:hover {
