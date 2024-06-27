@@ -1,21 +1,28 @@
 document.addEventListener('DOMContentLoaded', () => {
     const products = {
-        comida: [
-            { name: 'Morcilla', price: 1.7, quantity: 0 },
-            { name: 'Chorizo', price: 1.7, quantity: 0 },
-            { name: 'Morro', price: 1.7, quantity: 0 },
-            { name: 'Tortilla', price: 1.7, quantity: 0 },                        
-            { name: 'Langostinos', price: 2, quantity: 0 },
-            { name: 'Patatas / Chaskis', price: 1, quantity: 0 }
-        ],
-        bebida: [
-            { name: 'Caña/Con Limón', price: 1.3, quantity: 0 },
-            { name: 'Vino', price: 1.3, quantity: 0 },
-            { name: 'Cachi', price: 4.5, quantity: 0 },
-            { name: 'Refresco', price: 1.7, quantity: 0 },
-            { name: 'Mosto', price: 1, quantity: 0 },
+        suaves: [
+            { name: 'Cerveza', price: 1.5, quantity: 0 },
+            { name: 'Cañón Cerveza', price: 2.5, quantity: 0 },
+            { name: 'Corto Cerveza', price: 0.8, quantity: 0 },
+            { name: 'Radler', price: 1.5, quantity: 0 },
+            { name: 'Calimocho', price: 3, quantity: 0 },
+            { name: 'Cachi Cerveza', price: 5, quantity: 0 },
+            { name: 'Cachi Calimocho', price: 5, quantity: 0 },
+            { name: 'Refrescos,zumos', price: 2, quantity: 0 },
             { name: 'Agua', price: 1, quantity: 0 },
-            { name: 'Café', price: 1, quantity: 0 },
+            { name: 'Mosto', price: 1.2, quantity: 0 },
+            { name: 'Vaso Retornable', price: 1, quantity: 0 },
+        ],
+        fuertes: [
+            { name: 'Verdejo', price: 1.5, quantity: 0 },
+            { name: 'Tinto Crianza', price: 1.5, quantity: 0 },
+            { name: 'Vino Claro', price: 1.2, quantity: 0 },
+            { name: 'Marianito', price: 1.5, quantity: 0 },
+            { name: 'Martini / Pacharán', price: 2, quantity: 0 },
+            { name: 'Baileys / Whisky', price: 3.5, quantity: 0 },
+            { name: 'Chupitos', price: 1.5, quantity: 0 },
+            { name: 'Cubatas', price: 5.5, quantity: 0 },
+            { name: 'Cachi Cubata', price: 15, quantity: 0 },
         ]
     };
 
@@ -111,5 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
     //     this.value = this.value.replace(/[^0-9.,]/g, '');
     // });
 
-    openTab('comida');
+
+
+    openTab('suaves');
 });
