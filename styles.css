@@ -65,6 +65,7 @@ html, body {
     transition: background 0.3s;
     flex: 1;
     font-size: 1em;
+    font-weight: bold;
 }
 
 .tab-link:hover {
