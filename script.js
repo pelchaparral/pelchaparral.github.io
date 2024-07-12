@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
             { name: 'Verdejo', price: 1.5, quantity: 0 },
             { name: 'Tinto Crianza', price: 1.5, quantity: 0 },
             { name: 'Vino Claro', price: 1.2, quantity: 0 },
+            { name: 'Marianito', price: 1.5, quantity: 0 },
             { name: 'Agua', price: 1, quantity: 0 },
         
         ],
@@ -22,7 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
             { name: 'Chupitos', price: 1.5, quantity: 0 },
             { name: 'Cubatas', price: 5.5, quantity: 0 },
             { name: 'Cachi Cubata', price: 15, quantity: 0 },
-            { name: 'Marianito', price: 1.5, quantity: 0 },
             { name: 'Martini / Pacharán', price: 2, quantity: 0 },
         ]
     };
