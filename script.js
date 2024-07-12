@@ -1,28 +1,29 @@
 document.addEventListener('DOMContentLoaded', () => {
     const products = {
-        suaves: [
+        vermut: [
             { name: 'Cerveza', price: 1.5, quantity: 0 },
-            { name: 'Cañón Cerveza', price: 2.5, quantity: 0 },
-            { name: 'Corto Cerveza', price: 0.8, quantity: 0 },
+            { name: 'Cervezan Cañón', price: 2.5, quantity: 0 },
+            { name: 'Cerveza Corto', price: 0.8, quantity: 0 },
             { name: 'Radler', price: 1.5, quantity: 0 },
-            { name: 'Calimocho', price: 3, quantity: 0 },
-            { name: 'Cachi Cerveza', price: 5, quantity: 0 },
-            { name: 'Cachi Calimocho', price: 5, quantity: 0 },
             { name: 'Refrescos/zumos', price: 2, quantity: 0 },
-            { name: 'Agua', price: 1, quantity: 0 },
             { name: 'Mosto', price: 1.2, quantity: 0 },
-            { name: 'Vaso Retornable', price: 1, quantity: 0 },
-        ],
-        fuertes: [
             { name: 'Verdejo', price: 1.5, quantity: 0 },
             { name: 'Tinto Crianza', price: 1.5, quantity: 0 },
             { name: 'Vino Claro', price: 1.2, quantity: 0 },
-            { name: 'Marianito', price: 1.5, quantity: 0 },
-            { name: 'Martini / Pacharán', price: 2, quantity: 0 },
+            { name: 'Agua', price: 1, quantity: 0 },
+        
+        ],
+        noche: [
+            { name: 'Vaso Retornable', price: 1, quantity: 0 },
+            { name: 'Calimocho', price: 3, quantity: 0 },
+            { name: 'Cachi Calimocho', price: 5, quantity: 0 },
+            { name: 'Cachi Cerveza', price: 5, quantity: 0 },
             { name: 'Baileys / Whisky', price: 3.5, quantity: 0 },
             { name: 'Chupitos', price: 1.5, quantity: 0 },
             { name: 'Cubatas', price: 5.5, quantity: 0 },
             { name: 'Cachi Cubata', price: 15, quantity: 0 },
+            { name: 'Marianito', price: 1.5, quantity: 0 },
+            { name: 'Martini / Pacharán', price: 2, quantity: 0 },
         ]
     };
 
@@ -147,5 +148,5 @@ document.addEventListener('DOMContentLoaded', () => {
     //     footer.style.zIndex = '';
 
     // });
-    openTab('suaves');
+    openTab('vermut');
 });
